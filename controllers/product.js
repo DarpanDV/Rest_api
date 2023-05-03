@@ -6,7 +6,11 @@ const getAllProducts=async(req,res)=>{
 
     if(company)
     {
-        queryObject.company=company;
+        queryObject.company={$regex:company,$options:"i"};;
+    }
+    if(name)
+    {
+        queryObject.name={$regex:name,$options:"i"};
     }
     const mydata=await Product.find(queryObject);
     res.status(200).json(mydata);
