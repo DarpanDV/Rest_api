@@ -1,0 +1,32 @@
+[
+    {
+        "name":"iphone",
+        "price":154,
+        "feature":true,
+        "company":"apple"
+    },
+    {
+        "name":"redmi note 7 pro",
+        "price":15400,
+        "feature":true,
+        "company":"MI"
+    },
+    {
+        "name":"samsung f34",
+        "price":155555,
+        "feature":true,
+        "company":"Samsung"
+    },
+    {
+        "name":"redmi Note 11t 5g",
+        "price":122224,
+        "feature":true,
+        "company":"MI"
+    },
+    {
+        "name":"google pixel",
+        "price":199999,
+        "feature":true,
+        "company":"Google"
+    }
+]
